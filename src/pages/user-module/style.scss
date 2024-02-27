@@ -1,0 +1,16 @@
+.user-module {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 100%;
+  .title {
+    color: #2e86c1;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  .user-search {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
