@@ -1,12 +1,14 @@
 .common-table {
   width: 100%;
   overflow: auto;
+  max-height: 80vh;
 
   tbody {
     .img-thumbnail {
       padding: 4px;
-      border-radius: 50%;
+      background: white;
       margin-left: 8px;
+      cursor: pointer;
 
       img {
         width: 24px;

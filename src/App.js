@@ -1,10 +1,13 @@
 import "./App.css";
 import UserModule from "./pages/user-module";
+import { UserContextProvider } from "./context/userContext";
 
 function App() {
   return (
     <div className="App">
-      <UserModule></UserModule>
+      <UserContextProvider>
+        <UserModule></UserModule>
+      </UserContextProvider>
     </div>
   );
 }

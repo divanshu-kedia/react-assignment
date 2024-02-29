@@ -1,0 +1,29 @@
+.modal-dialog {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 0;
+}
+
+.modal-content {
+  position: relative;
+  padding: 0 !important;
+  min-width: 200px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background: none;
+  border: none !important;
+  font-size: 24px;
+  font-family: 600;
+  cursor: pointer;
+  &:focus,
+  &:focus-visible {
+    border: none !important;
+    outline: none !important;
+  }
+}
